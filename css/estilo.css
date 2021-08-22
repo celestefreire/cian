@@ -32,3 +32,27 @@ margin-left: 20px;}
 
 .navegador{margin-top: 20px;
 margin-right: 20px;}
+
+h5{font-size: 5rem;
+color: #61466D;}
+
+p{font-size: 2rem;}
+
+.carouselPadding{padding: 0px 20px;}
+
+/* media */
+
+@media screen and (max-width: 768px){
+    header.flexContenidoHeader{display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;}
+
+    h1.titulo{margin-top: 20px;
+    margin-left: 0px;
+    margin-bottom: 0px;}
+
+    nav.navegador{margin-top: 10px;
+    margin-right: 0px;}
+
+}
